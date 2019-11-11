@@ -148,6 +148,7 @@ ANIMATED BUTTON #2 - ANIMATED BUTTON #2 - ANIMATED BUTTON #2 - ANIMATED BUTTON #
     margin: 0;
     padding: 25px 0;
     display: flex;
+    justify-content: space-around;
 
     & li 
     {
@@ -155,7 +156,6 @@ ANIMATED BUTTON #2 - ANIMATED BUTTON #2 - ANIMATED BUTTON #2 - ANIMATED BUTTON #
         list-style: none;
         width: 100px;
         height: 100px;
-        margin: 10px;
         border-radius: 50%;
         box-sizing: border-box;
 

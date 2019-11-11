@@ -335,6 +335,8 @@ ANIMATED BUTTON #2 - ANIMATED BUTTON #2 - ANIMATED BUTTON #2 - ANIMATED BUTTON #
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .anim-btn-2 li {
@@ -342,7 +344,6 @@ ANIMATED BUTTON #2 - ANIMATED BUTTON #2 - ANIMATED BUTTON #2 - ANIMATED BUTTON #
   list-style: none;
   width: 100px;
   height: 100px;
-  margin: 10px;
   border-radius: 50%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
