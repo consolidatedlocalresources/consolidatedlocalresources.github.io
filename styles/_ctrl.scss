@@ -1,6 +1,7 @@
 @mixin nav-ctrl
 {
     background-color: $grey-nav-ctrl;
+    display: block;
 }
 
 .main-ctrl
