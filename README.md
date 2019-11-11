@@ -1,0 +1,2 @@
+# consolidatedlocalresources.github.io
+Portfolio
