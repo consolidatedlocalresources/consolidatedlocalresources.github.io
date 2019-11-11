@@ -7,13 +7,13 @@ SOCIAL MEDIA BUTTON #1 - SOCIAL MEDIA BUTTON #1 - SOCIAL MEDIA BUTTON #1 - SOCIA
 {
     text-align: center;
 
-    .btn
+    .soc-btn-1
     {
         display: inline-block;
-        width: 45px;
-        height: 45px;
+        width: 60px;
+        height: 60px;
         background: #f1f1f1;
-        margin: 30px 10px;
+        margin: 30px 14px;
         border-radius: 30%;
         box-shadow: 0 5px 15px 5px #00000070;
         color: #3498db;
@@ -22,8 +22,8 @@ SOCIAL MEDIA BUTTON #1 - SOCIAL MEDIA BUTTON #1 - SOCIAL MEDIA BUTTON #1 - SOCIA
 
         & i 
         {
-            line-height: 47px;
-            font-size: 20px;
+            line-height: 60px;
+            font-size: 25px;
             transition: 0.2s linear;
         }
         &:hover i
