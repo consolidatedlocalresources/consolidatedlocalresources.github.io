@@ -15,8 +15,9 @@ ANIMATED BUTTON #1 - ANIMATED BUTTON #1 - ANIMATED BUTTON #1 - ANIMATED BUTTON #
 .anim-btn-1 
 {
     position: relative;
-    top: 125px;
+    top: 50%;
     left: 0;
+    transform: translate(0, -50%);
     height: 10vh;
     transform: translate(-50%, -50%);
     color: #1670f0;
