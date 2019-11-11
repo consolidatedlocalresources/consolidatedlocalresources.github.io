@@ -425,4 +425,77 @@ ANIMATED BUTTON #2 - ANIMATED BUTTON #2 - ANIMATED BUTTON #2 - ANIMATED BUTTON #
 .anim-btn-2 li:nth-child(4) a, .anim-btn-2 li:nth-child(4):before, .anim-btn-2 li:nth-child(4):after {
   background: linear-gradient(45deg, #ff0000, #ffc107);
 }
+
+/*
+
+FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1
+
+*/
+.contact-section {
+  background: #313840;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.contact-section .inner-width {
+  max-width: 600px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.contact-section .inner-width h1 {
+  font-size: 20px;
+  color: #888;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 400;
+}
+
+.contact-section .inner-width .name, .contact-section .inner-width .email, .contact-section .inner-width .message {
+  background: none;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid;
+  color: #888;
+  padding: 10px 6px;
+  font-size: 14px;
+  margin-bottom: 40px;
+  min-width: 100%;
+}
+
+.contact-section .inner-width .name {
+  float: left;
+  width: 270px;
+}
+
+.contact-section .inner-width .email {
+  float: left;
+  width: 270px;
+}
+
+.contact-section .inner-width button {
+  background: none;
+  color: #70a1ff;
+  border: 1px solid #70a1ff;
+  outline: none;
+  padding: 12px 40px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-size: 14px;
+  -webkit-transition: 0.4s linear;
+  transition: 0.4s linear;
+  cursor: pointer;
+}
+
+.contact-section .inner-width button:hover {
+  background: #70a1ff;
+  color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  .name, .email {
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
