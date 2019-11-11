@@ -1,0 +1,38 @@
+@mixin nav-ctrl
+{
+    background-color: $grey-nav-ctrl;
+    margin-bottom: 1rem;
+}
+
+.main-ctrl
+{
+    @include nav-ctrl;
+    
+    .ctrl
+    {
+        margin: 10px;
+        width: 25px;
+        height: 25px;
+        border: 1px solid $grey-nav-ctrl-border;
+        border-radius: 5px;
+        box-shadow: 0 .3rem 1rem .3rem $grey-nav-ctrl-border;
+        outline: none;
+        font-family: sans-serif;
+        font-size: 1rem;
+
+        &:hover
+        {
+            background-color: $grey-nav-ctrl-hover;
+            box-shadow: 0 .3rem 1rem .4rem $grey-nav-ctrl-border;
+            transform: translateY(-2px);
+            transition: .1s;
+        }
+
+        &:active
+        {
+            box-shadow: 0 .3rem 1rem .3rem $grey-nav-ctrl-border;
+            transform: translateY(-1px);
+            transition: .1s;
+        }
+    }
+}
