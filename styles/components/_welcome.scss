@@ -29,10 +29,10 @@
     {
         font-size: 30px;
         color: #6ab04c;
-        position: absolute;
-        top: 58%;
+        position: relative;
+        top: 42%;
         left: 50%;
-        transform: translate(-50%,0);
+        transform: translate(-50%,-50%);
 
         animation: dropdown linear;
         animation-duration: 2s;
@@ -63,18 +63,18 @@
 {
     0%
     {
-        top: 51%;
+        top: 26%;
     }
     30%
     {   
-        top: 51%
+        top: 26%;
     }
     85%
     {
-        top: 51%;
+        top: 26%;
     }
     100%
     {
-        top: 58%;
+        top: 42%;
     }
 }

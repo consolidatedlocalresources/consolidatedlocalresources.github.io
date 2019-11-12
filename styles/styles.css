@@ -532,11 +532,11 @@ FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - 
 .container .text2 {
   font-size: 30px;
   color: #6ab04c;
-  position: absolute;
-  top: 58%;
+  position: relative;
+  top: 42%;
   left: 50%;
-  -webkit-transform: translate(-50%, 0);
-          transform: translate(-50%, 0);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   -webkit-animation: dropdown linear;
           animation: dropdown linear;
   -webkit-animation-duration: 2s;
@@ -575,31 +575,31 @@ FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - 
 
 @-webkit-keyframes dropdown {
   0% {
-    top: 51%;
+    top: 26%;
   }
   30% {
-    top: 51%;
+    top: 26%;
   }
   85% {
-    top: 51%;
+    top: 26%;
   }
   100% {
-    top: 58%;
+    top: 42%;
   }
 }
 
 @keyframes dropdown {
   0% {
-    top: 51%;
+    top: 26%;
   }
   30% {
-    top: 51%;
+    top: 26%;
   }
   85% {
-    top: 51%;
+    top: 26%;
   }
   100% {
-    top: 58%;
+    top: 42%;
   }
 }
 /*# sourceMappingURL=styles.css.map */
