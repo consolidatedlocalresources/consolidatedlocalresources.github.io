@@ -1,37 +1,41 @@
 .container
 {
-    text-align: center;
     width: 100%;
     height: 40vh;
     background: #000;
 
-    span
+    p
     {
         text-transform: uppercase;
-        display: block;
+        text-align: center;
     }
     .text1
     {
         color: white;
-        font-size: 30px;
+        font-size: 24px;
         font-weight: 700;
         letter-spacing: 8px;
         margin-bottom: 20px;
         background: black;
-        position: relative;
+        position: absolute;
         animation: text 2.5s 1;
         position: relative;
         top: 50%;
-        transform: translateY(-50%);
+        left: 50%;
+        transform: translate(-50%,-50%);
         z-index: 1;
     }
     .text2
     {
-        font-size: 36px;
+        font-size: 30px;
         color: #6ab04c;
-        position: relative;
-        top: 37%;
-        transform: translateY(-50%);
+        position: absolute;
+        top: 58%;
+        left: 50%;
+        transform: translate(-50%,0);
+
+        animation: dropdown linear;
+        animation-duration: 2s;
     }
 }
 
@@ -40,21 +44,37 @@
     0%
     {
         color: black;
-        margin-bottom: -10px;
     }
     30%
     {
         letter-spacing: 25px;
-        margin-bottom: -10px;
     }
     85%
     {
         letter-spacing: 8px;
-        margin-bottom: -10px;
     }
     100%
     {
         letter-spacing: 8px;
-        margin-bottom: 30px;
+    }
+}
+
+@keyframes dropdown
+{
+    0%
+    {
+        top: 51%;
+    }
+    30%
+    {   
+        top: 51%
+    }
+    85%
+    {
+        top: 51%;
+    }
+    100%
+    {
+        top: 58%;
     }
 }
