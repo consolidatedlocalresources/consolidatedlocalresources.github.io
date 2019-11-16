@@ -516,7 +516,7 @@ FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - 
 .welcome-1 .text1 {
   color: white;
   background-color: #000;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 700;
   letter-spacing: 8px;
   position: relative;
@@ -530,7 +530,7 @@ FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - 
 }
 
 .welcome-1 .text2 {
-  font-size: 30px;
+  font-size: 18px;
   color: #6ab04c;
   position: relative;
   top: 50%;
@@ -538,8 +538,8 @@ FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - 
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   z-index: 1;
-  -webkit-animation: dropdownAnimation 2s 1;
-          animation: dropdownAnimation 2s 1;
+  -webkit-animation: dropdownAnimation 2s linear;
+          animation: dropdownAnimation 2s linear;
 }
 
 @-webkit-keyframes textAnimation {
@@ -574,13 +574,13 @@ FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - 
 
 @-webkit-keyframes dropdownAnimation {
   0% {
-    top: 40%;
+    top: 34%;
   }
   30% {
-    top: 40%;
+    top: 34%;
   }
   85% {
-    top: 40%;
+    top: 34%;
   }
   100% {
     top: 50%;
@@ -589,13 +589,13 @@ FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - 
 
 @keyframes dropdownAnimation {
   0% {
-    top: 40%;
+    top: 34%;
   }
   30% {
-    top: 40%;
+    top: 34%;
   }
   85% {
-    top: 40%;
+    top: 34%;
   }
   100% {
     top: 50%;

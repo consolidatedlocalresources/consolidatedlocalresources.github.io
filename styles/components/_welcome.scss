@@ -14,7 +14,7 @@
     {
         color: white;
         background-color: #000;
-        font-size: 24px;
+        font-size: 30px;
         font-weight: 700;
         letter-spacing: 8px;
         position: relative;
@@ -26,7 +26,7 @@
     }
     .text2
     {
-        font-size: 30px;
+        font-size: 18px;
         color: #6ab04c;
         position: relative;
         top: 50%;
@@ -34,7 +34,7 @@
         transform: translateY(-50%);
         z-index: 1;
 
-        animation: dropdownAnimation 2s 1;
+        animation: dropdownAnimation 2s linear;
     }
 }
 
@@ -62,15 +62,15 @@
 {
     0%
     {
-        top: 40%;
+        top: 34%;
     }
     30%
     {   
-        top: 40%;
+        top: 34%;
     }
     85%
     {
-        top: 40%;
+        top: 34%;
     }
     100%
     {
