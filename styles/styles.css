@@ -336,8 +336,9 @@ ANIMATED BUTTON #2 - ANIMATED BUTTON #2 - ANIMATED BUTTON #2 - ANIMATED BUTTON #
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .anim-btn-2 li {
@@ -500,50 +501,48 @@ FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - 
   }
 }
 
-.container {
+.welcome-1 {
   width: 100%;
   height: 40vh;
   background: #000;
+  z-index: -5;
 }
 
-.container p {
+.welcome-1 .text {
   text-transform: uppercase;
   text-align: center;
 }
 
-.container .text1 {
+.welcome-1 .text1 {
   color: white;
+  background-color: #000;
   font-size: 24px;
   font-weight: 700;
   letter-spacing: 8px;
-  margin-bottom: 20px;
-  background: black;
-  position: absolute;
-  -webkit-animation: text 2.5s 1;
-          animation: text 2.5s 1;
   position: relative;
   top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  z-index: 1;
+  left: width / 2;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 2;
+  -webkit-animation: textAnimation 2.5s 1;
+          animation: textAnimation 2.5s 1;
 }
 
-.container .text2 {
+.welcome-1 .text2 {
   font-size: 30px;
   color: #6ab04c;
   position: relative;
-  top: 42%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  -webkit-animation: dropdown linear;
-          animation: dropdown linear;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
+  top: 50%;
+  left: width / 2;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 1;
+  -webkit-animation: dropdownAnimation 2s 1;
+          animation: dropdownAnimation 2s 1;
 }
 
-@-webkit-keyframes text {
+@-webkit-keyframes textAnimation {
   0% {
     color: black;
   }
@@ -558,7 +557,7 @@ FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - 
   }
 }
 
-@keyframes text {
+@keyframes textAnimation {
   0% {
     color: black;
   }
@@ -573,33 +572,33 @@ FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - 
   }
 }
 
-@-webkit-keyframes dropdown {
+@-webkit-keyframes dropdownAnimation {
   0% {
-    top: 26%;
+    top: 40%;
   }
   30% {
-    top: 26%;
+    top: 40%;
   }
   85% {
-    top: 26%;
+    top: 40%;
   }
   100% {
-    top: 42%;
+    top: 50%;
   }
 }
 
-@keyframes dropdown {
+@keyframes dropdownAnimation {
   0% {
-    top: 26%;
+    top: 40%;
   }
   30% {
-    top: 26%;
+    top: 40%;
   }
   85% {
-    top: 26%;
+    top: 40%;
   }
   100% {
-    top: 42%;
+    top: 50%;
   }
 }
 /*# sourceMappingURL=styles.css.map */
