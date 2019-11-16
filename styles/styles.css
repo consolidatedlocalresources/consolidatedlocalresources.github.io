@@ -67,8 +67,8 @@ SOCIAL MEDIA BUTTON #1 - SOCIAL MEDIA BUTTON #1 - SOCIAL MEDIA BUTTON #1 - SOCIA
 
 .middle .soc-btn-1 {
   display: inline-block;
-  width: 60px;
-  height: 60px;
+  width: 49px;
+  height: 49px;
   background: #f1f1f1;
   margin: 30px 14px;
   border-radius: 30%;
@@ -80,7 +80,7 @@ SOCIAL MEDIA BUTTON #1 - SOCIAL MEDIA BUTTON #1 - SOCIAL MEDIA BUTTON #1 - SOCIA
 }
 
 .middle .soc-btn-1 i {
-  line-height: 60px;
+  line-height: 49px;
   font-size: 25px;
   -webkit-transition: 0.2s linear;
   transition: 0.2s linear;
@@ -446,7 +446,7 @@ FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - 
 }
 
 .contact-section .inner-width h1 {
-  font-size: 20px;
+  font-size: 16px;
   color: #888;
   margin-bottom: 40px;
   text-transform: uppercase;
@@ -516,7 +516,7 @@ FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - 
 .welcome-1 .text1 {
   color: white;
   background-color: #000;
-  font-size: 30px;
+  font-size: 10px;
   font-weight: 700;
   letter-spacing: 8px;
   position: relative;
@@ -530,7 +530,7 @@ FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - 
 }
 
 .welcome-1 .text2 {
-  font-size: 18px;
+  font-size: 8px;
   color: #6ab04c;
   position: relative;
   top: 50%;
@@ -574,13 +574,13 @@ FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - 
 
 @-webkit-keyframes dropdownAnimation {
   0% {
-    top: 34%;
+    top: 39%;
   }
   30% {
-    top: 34%;
+    top: 39%;
   }
   85% {
-    top: 34%;
+    top: 39%;
   }
   100% {
     top: 50%;
@@ -589,13 +589,13 @@ FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - FORM #1 - 
 
 @keyframes dropdownAnimation {
   0% {
-    top: 34%;
+    top: 39%;
   }
   30% {
-    top: 34%;
+    top: 39%;
   }
   85% {
-    top: 34%;
+    top: 39%;
   }
   100% {
     top: 50%;
